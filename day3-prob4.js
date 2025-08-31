@@ -27,7 +27,7 @@ function successTranc(arr) {
       if (!successTranc.hasOwnProperty(cust)) {
         successTranc[cust] = 0;
       }
-      successTranc[cust] += +arr[i].amount;
+      successTranc[cust] += arr[i].amount;
 
       // optimised version
       if (successTranc[cust] > max) {
